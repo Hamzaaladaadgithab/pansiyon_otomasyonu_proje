@@ -1,0 +1,26 @@
+Benim proje ilk sayfa prograsbar sayfası uygulama ilk çalıştığında . sonra  giriş sayfasına bize götürür yüklemebitikten sonra  Admin olarak girilir projeye ilk önce  kullanıcı ad ve şifre ile giriyouruz, Eğer şifre unutuysak şifre unutum kısımından şifreyi Gmail ile hatırlatma mesaj geönderebiliriz. sonra diğer formlara geçiş yaparaız, diğer formlar ve veritabanı : 
+
+     PROJEDE KULLANILAN TEKNOLOJİLER: 
+      . C# 
+      .  SQL SERVER  
+
+
+
+
+      PROJEMDE 7 SAYFADAN OLUŞUR: 
+     . YÜKLEME SAYFASI 
+     . GİRİŞ EKRANI
+     . YENİ KULLANICI EKLEME 
+     . KULLANICILARIN BİLGİLERİ İŞLEMLERİ 
+     .  ÖDEME VE GİDERME İŞLEMLERİ 
+     . ŞİFRE GÜNCELLEME  
+     . YÖNETİCİ İŞLEMLERİ  
+
+
+
+    VERİTABANI 5 TABLODAN OLUŞMAKTADIR  
+      . E-POSTA
+      . YÖNETİCİ BİLGİLERİ 
+      . KULLANICI BİLGİLERİ 
+      . ODALAR 
+      . ÖDEMELER 

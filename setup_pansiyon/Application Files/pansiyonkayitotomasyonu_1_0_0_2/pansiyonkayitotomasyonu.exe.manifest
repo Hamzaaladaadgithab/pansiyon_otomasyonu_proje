@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="pansiyonkayitotomasyonu.exe" version="1.0.0.2" publicKeyToken="a97f6e813bc5400a" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="pansiyon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="pansiyonkayitotomasyonu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="pansiyonkayitotomasyonu.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pansiyonkayitotomasyonu.exe" size="841712">
+      <assemblyIdentity name="pansiyonkayitotomasyonu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xrN+sRJaS6RV9bXKS6cwhM/7tP00+l3d332Mz07kMr8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ogrbilgilerdatabase.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EJ529ny4pZes4DWNlQAazPtz9aiaCTPrQbnF7JkOrVk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ogrbilgilerdatabase_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sbEkKm/rTTM0ceh9H4PDT7aOUxs7+vGMJeYnP2Dj1wA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="pansiyon.ico" size="2834">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>evevT4QfBbDDs+919if+UNhGQE5Asa6wjJzPFp3fQpI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="pansiyonkayitotomasyonu.exe.config" size="679">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h1mnpP/RoHBTSkum7D33UVP6NUXCWQIqAAGf/D3xJJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LENOVO-E15\HAMZA ALADAAD" issuerKeyHash="1d74dae357f9f3269a37f5e88d4622e3ff794e7c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JEeP0NU/dluwhoQR6Sz7ZL3KyxULRoh4gxaxjrtTUP0=</DigestValue></Reference></SignedInfo><SignatureValue>GuXVTKH934VPbFrjFthiEjrBjwJl71J3rtBuCBMUZRvE65JoR8GnWXJdQpy5s5x99FAkJU5NVXhVs7gF+XivQMy+rLjkTsRC9q5FCl3S0FvySS03ir+HLYuj9Xi0InMA+XmoR6iMZ+66Ek1g5AaYEdNeVeZa47EkGwPLcE/WE3I=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0h3gwvN8iph7ZQLnPHBLXbXu64nkATelIBewik9zvAwQrQQNgSHS0cCt4DyCT8+G8JJcLH5DPRwyj6xiy6z+NGjFxAWwwee7ieE4g5/PPZ2xEbCjGNzbUDlUeV+13tvZtcNJFgmhUANFxqhZfht29BDIv7ILPr+gpxCa1vh58JE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fd5053bb8eb116837888460b15cbcabd64fb2ce9118486b05b763fd5d08f4724" Description="" Url=""><as:assemblyIdentity name="pansiyonkayitotomasyonu.exe" version="1.0.0.2" publicKeyToken="a97f6e813bc5400a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LENOVO-E15\HAMZA ALADAAD</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/gbnHK21BroVg7V3LUNfLhwOzAKyy1sumhDpOjS2wPg=</DigestValue></Reference></SignedInfo><SignatureValue>i0PGGsAUHCFi81ACbsNrHpg+rk7j068H/SQIjn61ROAB9rlyfo4DnbgDmdP6pFy3eiSy1WdZrXEC95Mq2uv3VI8ZZ+wuz/vNZ3Tb7SSslFCRJq/GcfC/azqQldrCiX1U0GqAnhyS7+dx3HKDBA4PlDmrjRAiK5SlJTShAvxNsyw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0h3gwvN8iph7ZQLnPHBLXbXu64nkATelIBewik9zvAwQrQQNgSHS0cCt4DyCT8+G8JJcLH5DPRwyj6xiy6z+NGjFxAWwwee7ieE4g5/PPZ2xEbCjGNzbUDlUeV+13tvZtcNJFgmhUANFxqhZfht29BDIv7ILPr+gpxCa1vh58JE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQRnMRUu2Ey45NA04FH4WV8TANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAATABFAE4ATwBWAE8ALQBFADEANQBcAEgAQQBNAFoAQQAgAEEATABBAEQAQQBBAEQwHhcNMjQwMTA5MTMzMzA0WhcNMjUwMTA4MTkzMzA0WjA7MTkwNwYDVQQDHjAATABFAE4ATwBWAE8ALQBFADEANQBcAEgAQQBNAFoAQQAgAEEATABBAEQAQQBBAEQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANId4MLzfIqYe2UC5zxwS1217uuJ5AE3pSAXsIpPc7wMEK0EDYEh0tHAreA8gk/PhvCSXCx+Qz0cMo+sYsus/jRoxcQFsMHnu4nhOIOfzz2dsRGwoxjc21A5VHlftd7b2bXDSRYJoVADRcaoWX4bdvQQyL+yCz6/oKcQmtb4efCRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAW2Pqf+e56w5w/V5ygKce7VXR1l1BDCsnJMvIfN4UQZv091OlK2BiSAreqIsp/Utn3wfsSzM9Pw4/5Y0dXUteDzSSFS/CsBhvWgda7mxJtd/ERssxdl2Myw9rtlq+CMlFjkCxr1gkYOETWJyR5FYTB0iIiL8OAhcet8Juak6qeT0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
